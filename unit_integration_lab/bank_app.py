@@ -27,5 +27,5 @@ def transfer(balance_from, balance_to, amount):
         raise ValueError("Transfer amount must be positive")
     balance_from = withdraw(balance_from, amount)
     balance_to = deposit(balance_to, amount)
-    
+
     return balance_from, balance_to

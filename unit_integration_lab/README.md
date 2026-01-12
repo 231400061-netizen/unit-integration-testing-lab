@@ -6,12 +6,10 @@
 
 ## Project Description
 Banking application tested with unit and integration tests using pytest.
+This project demonstrates unit testing and integration testing to ensure
+individual functions and combined workflows behave correctly.
 
 ## How to Run Tests
-pip install -r requirements.txt
-pytest
-pytest -v
-pytest --html=report.html -v
-
-## GitHub Actions
-Workflow automatically runs unit and integration tests on push or pull request.
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
